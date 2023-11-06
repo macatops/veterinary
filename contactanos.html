@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario de opiniones y sugerencias</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h2>Envía tus opiniones o sugerencias</h2>
+        <form onsubmit="" action="https://formsubmit.co/c888c83ab1209b4bca156e616e6f0be2" method="post"/>
+            Nombre:<br>
+            <input type="text" name="Nombre"><br><br>
+            Correo electrónico:<br>
+            <input type="email" name="email"><br><br>
+            Mensaje:<br>
+            <textarea name="mensaje" rows="4" cols="30" required></textarea><br><br>
+            <input type="submit" value="Enviar" onclick="limpiarFormulario()">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/contactanos.html">
+            <input type="hidden" name="_captcha" value="false">
+        </form>
+    </body>
+</html>
