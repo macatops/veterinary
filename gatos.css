@@ -1,0 +1,191 @@
+body{
+    background-image: url(src/img/background.png);
+    background-repeat: repeat;
+    background-size: 60%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Título rosa con orillitas más oscuras*/
+h1{
+    font-family: 'fredoka';
+    color: #FFD4DD !important; 
+    -webkit-text-stroke: 2.5px #D48585; 
+    letter-spacing: 2px;
+
+}
+
+/* Título para navbar*/
+a{
+
+    font-family: 'Oswald';
+
+}
+
+/*Subtítulo cursiva.*/
+h3{
+    font-family: 'Satisfy';
+
+}
+
+h4{
+    font-family: 'Oswald';
+}
+
+.navbar .navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #FFAABB;
+    font-size: 200%;
+}
+
+
+a{
+    color: #545454  !important;
+    font-size: 20px !important;
+}
+
+p{
+    color: white;
+
+}
+
+button{
+    background-color: #FFAABB !important;
+    font-family: 'Oswald' !important;
+    color: white !important;
+    height: 4.5rem;
+    width: 20rem;
+    border-radius: 2rem !important;
+}
+
+#comienza{
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+button::after{
+    background-color: #ffffff !important;
+    border-color: #650014 !important;
+
+}
+
+.navbar{
+    background: linear-gradient(to right, #CBFDD9, #9DC4F8);
+    /* #CBFDD9     #9DC4F8*/
+
+}
+
+.nav-link{
+    white-space: nowrap;
+    padding-left: 12%;
+}
+
+.collapse{
+    margin-right: 4% !important;
+}
+
+
+#espacio{
+    margin-top: 8%;
+}
+
+#pet{
+    font-size: 500% !important;
+     padding-bottom: 60px;
+     letter-spacing: 10px;
+
+}
+
+#slog{
+    font-size: 200% !important;
+    padding-bottom: 60px;
+}
+
+#tom{
+    margin-top: 5%;
+
+}
+
+#column{
+    margin-top: 3%;
+    background-color: #CBDFE4;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+#comprar1{
+    height: 3rem !important;
+    width: 15rem !important;
+    margin-top: 10% !important;
+}
+
+#comprar{
+    height: 3rem !important;
+    width: 15rem !important;
+}
+
+footer{
+    background-color: #545454;
+    margin-bottom: -100%;
+    padding: 3%;
+
+}
+
+/* API GATOS*/
+#background{
+    background-image: url(src/img/background.png);
+    margin: 0;
+    padding: 0; 
+}
+
+#seleccionGatos{
+    margin-left: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background: linear-gradient(to right, #CBFDD9, #9DC4F8);
+    margin-right: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 100px;
+    padding-top: 3%;
+    position: relative;
+}
+#perros a, h1{
+    display: inline-block;
+}
+#perros a{
+    size: 100px;
+}
+
+#seleccionGatos img{
+    display: inline-block;
+    max-width: 100%; /* Set the maximum width to 100% */
+    max-height: 100%; /* Set the maximum height to 100% */
+    width: auto; /* Allow the image to scale proportionally */
+    height: auto; /* Allow the image to scale proportionally */
+}
+
+#breed_image{
+    border-radius: 40px;
+}
+
+/* SELECTOR */
+#breed_selector{
+    margin-left: 30%;
+    border-radius: 10px;
+    padding-left: 30px;
+    background-color: #FFD4DD;
+    width: 50%;
+    margin-bottom: 5%;
+    height: 5%;
+}
+
+#breed_json p{
+    color: black;
+}
+  /* Reset <select> defaults */
