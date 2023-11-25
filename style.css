@@ -129,9 +129,31 @@ button::after{
     width: 15rem !important;
 }
 
+.cat-container {
+    text-align: center;
+}
+
+#catFact{
+    font-size: 1.5rem;
+    font-family: 'Oswald';
+    color: #545454;
+    margin-bottom: 20px;
+}
+
+#reloadCat{
+    margin-bottom: 200px;
+}
+
+#catImage {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    max-height: 500px;
+    margin-top: 20px;
+}
+
 footer{
     background-color: #545454;
     margin-bottom: -100%;
     padding: 3%;
-
 }
