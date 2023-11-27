@@ -6,7 +6,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 var customIcon = L.icon({
-    iconUrl: '/src/img/marker.png',
+    iconUrl: './src/img/marker.png',
     iconSize: [32, 32], 
     iconAnchor: [16, 32], 
     popupAnchor: [0, -32] 
