@@ -8,8 +8,9 @@
 }
 
 body{
-    background-color: #c9d6ff;
-    background: linear-gradient(to right, #e2e2e2, pink);
+    background-image: url(/src/img/background.png);
+    background-repeat: repeat;
+    background-size: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,8 +48,8 @@ body{
 }
 
 .container button{
-    background-color: #512da8;
-    color: #fff;
+    background-color: #FFAABB;
+    color: rgb(100, 46, 46);
     font-size: 12px;
     padding: 10px 45px;
     border: 1px solid transparent;
@@ -62,7 +63,7 @@ body{
 
 .container button.hidden{
     background-color: transparent;
-    border-color: #fff;
+    border-color: rgb(100, 46, 46);
 }
 
 .container form{
@@ -161,10 +162,10 @@ body{
 }
 
 .toggle{
-    background-color: #512da8;
+    background-color: #FFAABB;
     height: 100%;
-    background: linear-gradient(to right, pink, #512da8);
-    color: #fff;
+    background: linear-gradient(to right, rgb(255, 255, 255), #FFAABB);
+    color: rgb(100, 46, 46);
     position: relative;
     left: -100%;
     height: 100%;

@@ -22,6 +22,13 @@ a{
 
 }
 
+a:hover {
+    color: #D48585 !important; 
+    
+}
+
+
+
 /*Subtítulo cursiva.*/
 h3{
     font-family: 'Satisfy';
@@ -129,6 +136,8 @@ button::after{
     width: 15rem !important;
 }
 
+
+
 .cat-container {
     text-align: center;
 }
@@ -156,4 +165,14 @@ footer{
     background-color: #545454;
     margin-bottom: -100%;
     padding: 3%;
+}
+
+#especial{
+    font-family: 'Oswald' !important;
+    color: white !important;
+    height: 4.5rem;
+    width: 20rem;
+    border-radius: 2rem !important;
+    font-size: 120% !important;
+    text-decoration: none !important;
 }
